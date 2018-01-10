@@ -3,19 +3,32 @@
   <title>America Greatness Watch</title>
   <link rel = "stylesheet" type = "text/css" href = "css/main.css" />
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
+      margin: 0;
       height: 100vh;
       width: 100vw;
-      overflow: hidden;
       animation-name: america;
       animation-duration:0.2s;
       animation-iteration-count: infinite;
+      background-color: blue;
     }
     #america {
+      height: 100%;
+      width: 100vw;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #rekt {
       text-align: center;
       font-family: Helvetica, Arial, sans-serif;
+      font-weight: 700;
       font-size: 70vw;
-      margin: -.11em 0 0 -0.05em;
+      margin: -.08em 0 0 -0.025em;
       line-height: 1em;
       color: white;
     }
@@ -28,6 +41,8 @@
   </style>
 </head>
 <body>
-  <h1 id = "america">NO</h1>
+  <div id="america">
+    <div id="rekt">NO</div>
+  </div>
 </body>
 </html>
